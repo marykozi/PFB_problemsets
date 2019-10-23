@@ -1,9 +1,8 @@
-<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
-<html><head>
-<title>301 Moved Permanently</title>
-</head><body>
-<h1>Moved Permanently</h1>
-<p>The document has moved <a href="https://fasta.bioch.virginia.edu/mol_evol/data/blast_rand5-800_v_qfo_PAM70.txt">here</a>.</p>
-<hr>
-<address>Apache/2.2.15 (CentOS) Server at fasta.bioch.virginia.edu Port 80</address>
-</body></html>
+# BLASTP 2.6.0+
+# Query: random_5 consisting of 800 residues.
+# Database: /slib2/bl_dbs/pfam31_qfo
+# Fields: query acc.ver, subject acc.ver, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 2 hits found
+random_5	A7S363	63.158	19	7	0	117	135	1054	1072	4.9	35.8
+random_5	A7S363	63.158	19	7	0	117	135	1556	1574	4.9	35.8
+# BLAST processed 1 queries
