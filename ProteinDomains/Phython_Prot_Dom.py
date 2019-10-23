@@ -37,8 +37,8 @@ fields = field_str.split(' ')
 
 hits_list = []
 
-print("target files")
-print(target_files)
+#print("target files")
+#print(target_files)
 
 #XYINYA TYT
 
@@ -56,11 +56,11 @@ print('file', 'perc_identity', 'alignment_length', 'evalue', sep='\t')
 
 
 for hit in hits_list:
-#	print('\t'.join([hit[x] for x in ('file', 'perc_identity', 'alignment_length', 'evalue')]))
-#	for x in ('file', 'perc_identity', 'alignment_length', 'evalue')
+	print('\t'.join([hit[x] for x in ('file', 'perc_identity', 'alignment_length', 'evalue')]))
+
 #		print()
-	print("hits_list")
-	print(hits_list)
+#	print("hits_list")
+#	print(hits_list)
 
 
 
